@@ -47,9 +47,15 @@ export default function Navbar() {
                     {/* <button className="px-6 py-2 bg-indigo-600 hover:bg-indigo-700 transition text-white rounded-md active:scale-95">
                         Get started
                     </button> */}
-                    <button className="hover:bg-slate-300/20 transition px-6 py-2 border border-slate-400 rounded-md active:scale-95">
-                        Login
-                    </button>
+                    <a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:bg-slate-300/20 transition px-6 py-2 border border-slate-400 rounded-md active:scale-95"
+>
+  View Resume ⬈
+</a>
+
                 </div>
                 <button onClick={() => setIsMenuOpen(true)} className="lg:hidden active:scale-90 transition">
                     <MenuIcon className="size-6.5" />

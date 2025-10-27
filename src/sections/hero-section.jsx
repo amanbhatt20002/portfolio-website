@@ -42,7 +42,7 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2, type: "spring", stiffness: 320, damping: 70, mass: 1 }}
             >
-               “Hi 👋, I’m Aman Bhatt — Full Stack Developer.”
+              Hi, I'm Aman — a Full Stack Developer passionate about building modern web apps.
             </motion.p>
             <motion.div className="flex items-center gap-4 mt-8"
                 initial={{ y: 50, opacity: 0 }}
@@ -58,7 +58,7 @@ export default function HeroSection() {
                     Book a demo
                 </button> */}
             </motion.div>
-            <TiltedImage />
+            {/* <TiltedImage /> */}
         </section>
     );
 }

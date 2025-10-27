@@ -18,12 +18,18 @@ export default function Page() {
         <HeroSection />
         <OurLatestCreation />
         <AboutOurApps />
-        <OurTestimonials />
+        {/* <OurTestimonials /> */}
         {/* <TrustedCompanies /> */}
         <GetInTouch />
-        <SubscribeNewsletter />
+        {/* <SubscribeNewsletter /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
+      <div className="flex justify-center items-center mt-16 mb-16">
+  <p className="text-2xl md:text-3xl font-semibold text-slate-200 text-center drop-shadow-md tracking-wide">
+    Thank's For Your Time 🤗
+  </p>
+</div>
+
     </>
   );
 }
