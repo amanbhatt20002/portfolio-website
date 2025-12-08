@@ -25,14 +25,14 @@ export default function OurLatestCreation() {
       align: "object-right",
       link: "https://todo-frontend-vercel-opal.vercel.app/",
     },
-    // {
-    //   title: "Software engineers",
-    //   description:
-    //     "Building scalable and efficient systems that bring ideas to life through code.",
-    //   image:
-    //     "https://images.unsplash.com/photo-1736220690062-79e12ca75262?q=80&w=800&h=400&auto=format&fit=crop",
-    //   align: "object-center",
-    // },
+    {
+      title: "Github linked Portfolio",
+      description:
+        "Sharing My Projects and Contributions through a Dynamic Portfolio Linked to GitHub.",
+      image:
+        "/assets/GITHUB.png",
+      align: "object-center",
+    },
   ];
 
   useEffect(() => {
